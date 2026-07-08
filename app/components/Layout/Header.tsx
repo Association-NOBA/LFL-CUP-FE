@@ -4,18 +4,22 @@ import { LiaUserCircleSolid } from "react-icons/lia";
 
 const Header = () => {
   return (
-      <div className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
-          <p>Logo</p>
-          <p>LFL Cup</p>
-          <p>Congo 2024</p>
-          <ul>
-              <li> <IoMdNotifications /></li>
-              <li><LiaUserCircleSolid /></li>
+    <header className='bg-base'>
+      <div className='flex items-center justify-between px-20 py-5'>
+        {/* Logo Section */}
+        <p>Logo</p>
+        
+        {/* Navigation Menu */}
+          <ul className='flex space-x-12'>
+              <li> ACCUEIL</li>
+              <li>CONTACT</li>
           </ul>
-         
-          
     </div>
+    </header>
+  
   )
 }
+
+
 
 export default Header

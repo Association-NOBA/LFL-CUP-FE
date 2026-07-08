@@ -11,7 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        base: "#FCFAF2"
       },
+      fontFamily: {
+            heading: ["var(--font-anton)", "sans-serif"],
+        body: ["var(--font-work-sans)", "sans-serif"],
+      }
     },
   },
   plugins: [],
