@@ -1,6 +1,4 @@
 import React from 'react'
-import { IoMdNotifications } from "react-icons/io";
-import { LiaUserCircleSolid } from "react-icons/lia";
 import Logo from '../../assets/logo.png'
 import Image from 'next/image';
 
