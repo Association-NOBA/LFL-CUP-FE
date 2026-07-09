@@ -14,7 +14,9 @@ const config: Config = {
         base: "#FCFAF2",
         red: "#CE1126",
         yel: "#FCD116",
-        vert: "#009543"
+        vert: "#009543",
+        gris: "#C6C6C6",
+        bleu: "#007FFF"
       },
       fontFamily: {
             heading: ["var(--font-anton)", "sans-serif"],
