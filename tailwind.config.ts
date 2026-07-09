@@ -11,7 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        base: "#FCFAF2"
+        base: "#FCFAF2",
+        red: "#CE1126",
+        yel: "#FCD116",
+        vert: "#009543"
       },
       fontFamily: {
             heading: ["var(--font-anton)", "sans-serif"],
