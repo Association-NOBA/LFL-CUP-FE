@@ -9,7 +9,7 @@ import { usePathname } from 'next/navigation';
 const Header = () => {
 
   const currentPath = usePathname();
-  console.log(currentPath)
+
   const links = [
     {label: 'ACCUEIL', href: '/'},
     {label: 'CONTACT', href: '/contact'}
