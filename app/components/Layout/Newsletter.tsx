@@ -8,7 +8,7 @@ export default function Newsletter() {
         <p className='text-white leading-relaxed'>{"Abonnez-vous à notre newsletter pour ne rien manquer de l'actualité de la LFL Cup et recevoir les résultats en exclusivité."}</p>
       </div>
 
-      <div className='flex flex-col md:flex-row gap-4 m-3'>
+      <form className='flex flex-col md:flex-row gap-4 m-3'>
         <input 
         type='text'
         placeholder='Nom'
@@ -25,7 +25,7 @@ export default function Newsletter() {
            className='border border-gray-300 px-4 py-2'
          />
          <button className='bg-red px-6 py-2 font-heading hover:underline'>{"S'inscrire"}</button>
-      </div>
+      </form>
     </div>
   )
 }
